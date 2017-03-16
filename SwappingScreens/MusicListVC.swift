@@ -18,7 +18,7 @@ class MusicListVC: UIViewController {
     }
     
     @IBAction func backBtnPressed(_ sender: AnyObject) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil) //ovako je pravilno otpustiti segue, da se ne bi gomilali viewevi u memoriji
     }
     
     @IBAction func loadThirdScreenPressed(_ sender: AnyObject) {
